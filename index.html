@@ -68,7 +68,18 @@
 
     <main class="main">
         <section class="about">
-
+            <div class="container">
+                <div class="about__container">
+                    <h2 class=" title about__title">
+                        About us
+                    </h2>
+                    <p class="about__text">
+                        Практика показывает, что большие продажи далеко не всегда зависят от того, сколько вы потратите на продвижение сайта и рекламную кампанию. Значительно сильнее конечный результат зависит от правильной организации кампании. Мы достигаем максимальной эффективности и помогаем сберечь бюджеты наших клиентов, используя стратегический интернет-маркетинг.
+                        <br>
+                        Определяем цели продвижения — что наш клиент хочет получить, когда работа будет сделана. Проводим маркетинговые исследования рынка, целевой аудитории, конкурентной среды. При разработке стратегии учитываем все имеющиеся данные.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section class="expertise">
@@ -131,6 +142,62 @@
                     </div>
             </div>
         </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio__top">
+                    <h2 class="title portfolio__title">
+                        Portfolio
+                    </h2>
+                    <div class="portfolio__filter__btn">
+                        <button class="button__portfolio__btn" data-filter="all">
+                            All
+                        </button>
+                        <button class="button__portfolio__btn" data-filter=".category-a">
+                            BRANDING
+                        </button>
+                        <button class="button__portfolio__btn" data-filter=".category-b">
+                            DESIGN
+                        </button>
+                        <button class="button__portfolio__btn" data-filter=".category-c">
+                            PHOTOGRAPHY
+                        </button>
+                            <button class="button__portfolio__btn"
+                            data-filter=".category-d">
+                            ILLUSTRATION
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__content">
+                    <div class="portfolio_item mix category-a ">
+                        <img src="image\portfolio\1.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-a">
+                        <img src="image/portfolio/2.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-b">
+                        <img src="image/portfolio/3.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-b">
+                        <img src="image/portfolio/4.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-c">
+                        <img src="image/portfolio/5.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-c">
+                        <img src="image/portfolio/6.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-d">
+                        <img src="image/portfolio/7.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-d">
+                        <img src="image/portfolio/8.jpg" alt="portfolio images">
+                    </div>
+                    <div class="portfolio_item mix category-d">
+                        <img src="image/portfolio/9.jpg" alt="portfolio images">
+                    </div>   
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -139,6 +206,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
     <script src="js/slick.min.js"> </script>
+    <script src="js/mixitup.min.js"> </script>
     <script src="js/main.js"> </script>
 </body>
 </html>
