@@ -106,13 +106,15 @@ a{
 .about__container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     padding: 150px 0 150px;
 }
 
 .about__title{
     font-size: 48px;
     line-height: 75px;
+    position: relative;
+    max-height: 75px;
 }
 
 .about__text{
@@ -275,3 +277,114 @@ a{
     margin-left: 80px;
 }
 
+.portfolio__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.button__portfolio__btn{
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button__portfolio__btn:hover{
+    border-bottom:2px #FCBB08 solid ;
+}
+
+.portfolio__content{
+    column-count: 4;
+    column-gap: 22px;
+    margin-bottom: 50px;
+}
+
+.portfolio_item{
+    margin-bottom: 22px;
+    position: relative;
+
+}
+.portfolio_item img{
+    width: 100%;
+}
+
+.portfolio__item-link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #373A39;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.portfolio_item:hover .portfolio__item-link{
+    opacity: 1;
+}
+
+.portfolio__add{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #242121;
+    padding: 42px 0 42px;
+    background-color: #F6F8FA;
+    display: block;
+    text-align: center;
+}
+
+.lets{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.lets__title{
+    margin-bottom: 67px;
+    max-width: 470px;
+}
+
+.lets__text{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+.lets__make__text{
+    max-width: 559px;
+}
+
+.lets__photo{
+    width: 705px;
+    height: 840px;
+}
+
+.lets__photo::before{
+    content: "";
+    background-image: url(../image/Lets.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0%;
+    width: 705px;
+    height: 840px;
+}
