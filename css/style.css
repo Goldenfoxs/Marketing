@@ -478,3 +478,124 @@ margin-top: 50px;
     max-width: 559px;
     margin-bottom: 190px;
 }
+
+.slick-next{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    right: -80px;
+}
+
+.slick-prev{
+    border: none;
+    background-color: transparent;
+    position: absolute; 
+    top: 10%;
+    left: -80px;
+}
+
+.team__title{
+    margin-top: 120px;
+}
+
+.team__main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 132px;
+    margin-top: 102px;
+}
+
+.max-text{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.anna-text{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mia-text{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.max-job{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.price{
+    background-color: #F6F8FA;
+    padding-bottom: 162px;
+    padding-top: 140px;
+}
+
+.price__title{
+    margin-bottom: 90px;
+}
+
+.pricing__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item{
+    padding: 24px 25px 53px 25px;
+    background-color: #FFFFFF;
+    width: 370px;
+}
+
+.pricing__item__box{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #242121;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing__item__box a{
+    margin-top: 70px;
+}
+
+.pricing__item-link{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #242121;
+    display: block;
+}
+
+.pricing__item-title{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pricing__item-subtitle{
+    font-size: 80px;
+    line-height: 109px; 
+    margin-bottom: 60px;  
+}
+
+.pricing__item-subtitle sup{
+    font-size: 40px;
+    line-height: 54px;
+}
