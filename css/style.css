@@ -512,6 +512,8 @@ margin-top: 50px;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 35px;
 }
 
 .anna-text{
@@ -520,6 +522,8 @@ margin-top: 50px;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 35px;
 }
 
 .mia-text{
@@ -528,6 +532,8 @@ margin-top: 50px;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 35px;
 }
 
 .max-job{
@@ -598,4 +604,116 @@ margin-top: 50px;
 .pricing__item-subtitle sup{
     font-size: 40px;
     line-height: 54px;
+}
+
+.conection__main{
+    display: flex;
+    height: 896px;
+}
+
+.conection__right{
+    background-image: url(../image/MapBg.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    width: 635px;
+    height: 896px;
+}
+
+.photo__section-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 130px;
+}
+
+.conection__title{
+    margin-bottom: 45px;
+}
+
+.form{
+    max-width: 570px;
+}
+
+.form input,
+.form textarea{
+    display: block;
+    border: none;
+}
+
+.form input::placeholder{
+    color: black;
+    text-transform: uppercase;
+}
+
+.form button{
+    background-color: #242121;
+    color: #FFFFFF;
+    width: 230;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.footer__bottom{
+    background-color: #333333;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__footer{
+    margin-bottom: 70px;
+    width: 80px;
+    height: 65px;
+    margin-top: 110px;
+    position: relative;
+    border-bottom: 2px #FCBB08 solid;
+}
+
+.footer__social-media{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.footer__social{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.footer__text{
+    text-align: center;
+}
+
+.footer__contact{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.arrow__up{
+    margin: 60px 0 ;
+}
+
+.end{
+    background-color: #2A2C2B;
+
+}
+
+.end__text{
+    color: #CCCCCC ;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 42px 0;
+    text-align: center;
 }
