@@ -42,14 +42,23 @@ a{
 }
 
 .header__top{
-    padding: 10px 0;
+    width: 100%;
 }
 
 .header__top_inner{
-    /* height: 94px; */
+    height: 94px;
+    position: fixed;
+    z-index: 7;
     display: flex;
+    /* opacity: 0.9; */
+    right: 0px;
+    left: 0;
+    top: 0;
+    padding-left: 130px;
+    padding-right: 130px;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
 }
 
 .menu__list{
@@ -75,8 +84,9 @@ a{
     background-image: url(../image/Header-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     background-position: center;
+    top: 0;
 }
 
 .header__content_inner{
@@ -84,7 +94,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: calc(100vh - 86.4px);
+    /* min-height: calc(100vh - 86.4px); */
 }
 
 .header__title{
@@ -611,14 +621,16 @@ margin-top: 50px;
     height: 896px;
 }
 
-.conection__right{
+.conection{
     background-image: url(../image/MapBg.jpg);
-    position: absolute;
     background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    width: 635px;
-    height: 896px;
+    /* position: absolute; */
+    background-size: 50%;
+    background-position: right 50%;
+    /* right: 0; */
+    /* width: 635px;
+    height: 896px; */
+    
 }
 
 .photo__section-main{
@@ -628,31 +640,51 @@ margin-top: 50px;
 }
 
 .conection__title{
-    margin-bottom: 45px;
+    margin-bottom: 94px;
 }
 
 .form{
-    max-width: 570px;
+    width: 470px;
 }
 
 .form input,
 .form textarea{
     display: block;
     border: none;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding-right: 100px;
 }
 
-.form input::placeholder{
+.form input::placeholder,
+.form textarea::placeholder{
     color: black;
     text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3.7px;
+    font-family: sans-serif;
 }
 
 .form button{
     background-color: #242121;
     color: #FFFFFF;
-    width: 230;
+    width: 230px;
     height: 45px;
     font-family: sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
 
 .footer__bottom{
     background-color: #333333;
