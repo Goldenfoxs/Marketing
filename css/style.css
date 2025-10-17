@@ -61,6 +61,12 @@ a{
     background-color: #FFFFFF;
 }
 
+.menu__btn{
+    display: none;
+    background: transparent;
+    border: none;
+}
+
 .menu__list{
     display: flex;
     gap: 50px;
@@ -755,6 +761,18 @@ margin-top: 50px;
     text-align: center;
 }
 
+@media(max-width: 1200px){
+    .team__main{
+        flex-wrap: wrap;
+    }  
+    .team__max{
+        margin-bottom: 10px;
+    }  
+    .team__anna{
+        margin-bottom: 10px;
+    }
+}
+
 @media(max-width: 1000px){
     .conection{
         background-image: none;
@@ -773,10 +791,103 @@ margin-top: 50px;
     .pricing__items{
         flex-wrap: wrap;
     }
+    .lets__photo{
+        display: none;
+    }
+
+    .expertise__items{
+        flex-wrap: wrap;
+    }
+    .expertise__item{
+        margin-bottom: 20px;
+    }
+    .about__title{
+        margin-bottom: 20px;
+    }
+    .about__container{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .expertise{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .expertise__title{
+        margin-bottom: 50px;
+    }
+
+    .header__title{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 60px;
+    }
+
+    .expertise__info{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .header__content{
+}
+
+.about__container{
+    justify-content: flex-start;
+}
+
+.about__title{
+    margin-bottom: 50px;
+}
 }
     
 
 @media(max-width: 820px){
+   
+    .menu__list{
+        display: block;
+        background-color:#292626;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 100px;
+        transform: translateY(-320%);
+        transition: all .100s;
+    }
+
+    .menu__list-link{
+        color: #FFFFFF;
+    }
+
+    .menu__list-item{
+        padding-bottom: 30px;
+    }
+
+    .logo{
+        z-index: 15;
+    }
+
+    .menu__btn{
+        display: block;
+        position: relative;
+        z-index: 17;
+        /* color: #FFFFFF; */
+    }
+
+    .header__top_inner.header__top_inner--active .menu__list{
+    transform: translateY(0);
+    }
+
+    .header__top_inner.header__top_inner--active path{
+        fill: white;
+    }
+
+    .header__top_inner.header__top_inner--active .menu__btn rect{
+        fill: white;
+    }
+   
     .price{
     padding-bottom: 80px;
     padding-top: 60px;
@@ -786,11 +897,11 @@ margin-top: 50px;
 }
 .pricing__item{
         margin-bottom: 30px;
-        background-color: #e7d2d2;
+        background-color: #F0F0F0;
 }
 
 .slider{
-    padding-bottom: 60px ;
+    padding-bottom: 30px ;
     padding-top: 60px ;
 }
 
@@ -828,12 +939,26 @@ margin-top: 50px;
 .slider__item__text{
     margin-bottom: 100px;
 }
+
+.team__main{
+    margin-bottom: 50px;
+}
 }
 
 @media(max-width: 560px){
 .footer__social-media{
     flex-wrap: wrap;
 } 
+
+.about__text{
+    line-height: 28px;
+    font-size: 16px;
+}
+
+/* .expertise__info-item{
+    width: 110px;   
+} */
+
 .footer__social{
     padding-bottom: 10px;
 }

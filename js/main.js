@@ -1,4 +1,21 @@
 $(function () {
+
+
+
+    $('.menu__btn, .menu a').on('click', function () {
+
+        $('.header__top_inner').toggleClass('header__top_inner--active');
+
+
+    });
+
+
+
+});
+
+
+
+$(function () {
     let mixer = mixitup('.portfolio__content')
     $('.slider__inner').slick(
         {
